@@ -98,7 +98,7 @@ people = ["Lane", "Ash", "Jo", "Kendall"]
 
 
 
-def get_people(w3):
+def get_people():
     """Display the database of Fintech Finders candidate information."""
     db_list = list(candidate_database.values())
 
@@ -242,7 +242,7 @@ wage = candidate_database[person][3] * hours
 
 # @TODO
 # Write the `wage` calculation to the Streamlit sidebar
-st.sidebar.write(f"The wage for the selected person is: {wage} ETH")
+st.sidebar.write(f"The wage for the selected person is: {wage:.4f} ETH")
 
 ##########################################
 # Step 2 - Part 2:
