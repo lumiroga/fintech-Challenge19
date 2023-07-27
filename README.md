@@ -98,6 +98,7 @@ It also connects to the Ganache Ethereum Blockchain server.
 ###  bi44
 
 Handles ETH values conversions from Wei to ETH and creates a Wallet object
+
 ---
 
 
