@@ -101,6 +101,12 @@ Handles ETH values conversions from Wei to ETH and creates a Wallet object
 
 ---
 
+### Install Ganache
+
+A Ganache Ethereum server needs to be running locally and an enviorment file with a ganache mnemonic phrase is necessary.
+
+[Install Ganache](https://trufflesuite.com/ganache/)
+
 
 ### Clone repository
 ```bash
